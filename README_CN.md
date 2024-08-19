@@ -117,7 +117,7 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片开发的一款由旋钮控制的，�
 
 | Setting                               | Value                                 |
 | :-------------------------------: | :-------------------------------: |
-| Board                                | Adafruit Feather ESP32-S3 No PSRAM|
+| Board                                | ESP32S3 Dev Module|
 | Upload Speed                     | 921600                               |
 | USB Mode                           | Hardware CDC and JTAG     |
 | USB CDC On Boot                | Enabled                             |
@@ -127,6 +127,7 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片开发的一款由旋钮控制的，�
 | Flash Mode                         | QIO 80MHz                         |
 | Flash Size                           | 16MB (128Mb)                     |
 | Core Debug Level                | None                                 |
+| Partition Scheme                | 16M Flash (3MB APP/9.9MB FATFS) |
 | PSRAM                                | OPI PSRAM                         |
 | Arduino Runs On                  | Core 1                               |
 | Events Run On                     | Core 1                               |
