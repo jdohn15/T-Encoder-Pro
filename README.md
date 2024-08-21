@@ -195,7 +195,13 @@
 <br />
 
 * Q. Why is my board continuously failing to download the program?
-* A. Please hold down the "BOOT-0" button and try downloading the program again.
+* A. Please hold down the "BOOT" button and try downloading the program again.The following is the illustration of the BOOT button.
+
+<p align="center" width="100%">
+    <img src="image/12.jpg" alt="BOOT">
+</p>
+
+<br />
 
 ## Project
 * [SCH_T-Encoder-Pro_V1.0](./project/[SCH][T-Encoder-Pro_V1.0].pdf)

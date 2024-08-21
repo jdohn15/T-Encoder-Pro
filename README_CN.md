@@ -196,7 +196,13 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片开发的一款由旋钮控制的，�
 <br />
 
 * Q. 为什么我的板子一直烧录失败呢？
-* A. 请按住“BOOT”按键重新下载程序。
+* A. 请按住“BOOT”按键重新下载程序。下图为BOOT按键示意图
+
+<p align="center" width="100%">
+    <img src="image/12.jpg" alt="BOOT">
+</p>
+
+<br />
 
 ## 项目
 * [SCH_T-Encoder-Pro_V1.0](./project/[SCH][T-Encoder-Pro_V1.0].pdf)
