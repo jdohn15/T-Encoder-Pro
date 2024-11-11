@@ -1,15 +1,8 @@
 /*
- * @Description(CN):
- *      GFX测试程序
- *
- * @Description(EN):
- *      GFX test program
- *
- * @version: V1.0.0
+ * @Description:GFX test program
  * @Author: LILYGO_L
  * @Date: 2023-09-06 10:58:19
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2024-02-02 16:24:06
+ * @LastEditTime: 2024-11-11 14:00:46
  * @License: GPL 3.0
  */
 #include <Arduino.h>

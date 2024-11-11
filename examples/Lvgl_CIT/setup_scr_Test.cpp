@@ -1,10 +1,8 @@
 /*
  * @Description: None
- * @version: V1.0.0
  * @Author: LILYGO_L
  * @Date: 2023-12-08 10:45:26
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-12-08 16:07:39
+ * @LastEditTime: 2024-11-11 14:09:59
  * @License: GPL 3.0
  */
 

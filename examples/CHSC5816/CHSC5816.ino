@@ -1,10 +1,8 @@
 /*
- * @Description: None
- * @version: V1.0.0
+ * @Description: CHSC5816 Test
  * @Author: LILYGO_L
  * @Date: 2023-11-01 16:33:23
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2023-11-22 15:38:35
+ * @LastEditTime: 2024-11-11 14:00:10
  * @License: GPL 3.0
  */
 #include <Arduino.h>

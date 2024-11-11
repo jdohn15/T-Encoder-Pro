@@ -1,15 +1,9 @@
 /*
- * @Description(CN):
- *      这是针对于T-Encoder-Pro编写的用户测试程序CIT
- *
  * @Description(EN):
  *      This is a user testing program CIT written for T-Encoder-Pro.
- *
- * @version: V1.0.0
  * @Author: LILYGO_L
  * @Date: 2023-09-22 11:59:37
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2024-02-02 16:04:47
+ * @LastEditTime: 2024-11-11 14:09:45
  * @License: GPL 3.0
  */
 #include "custom.h"
@@ -17,6 +11,7 @@
 #include "gui_guider.h"
 #include "events_init.h"
 #include "TouchDrvCHSC5816.hpp"
+#include "material_16bit.h"
 
 static size_t Window_CycleTime1 = 0;
 
@@ -150,12 +145,16 @@ void setup()
 
     gfx->begin(40000000);
     gfx->fillScreen(BLACK);
-    
+
+    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_4, LCD_WIDTH, LCD_HEIGHT); // RGB
+
     for (int i = 0; i <= 255; i++)
     {
         gfx->Display_Brightness(i);
         delay(3);
     }
+
+    delay(3000);
 
     lvgl_initialization();
 
