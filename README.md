@@ -2,10 +2,14 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 15:48:47
+ * @LastEditTime: 2024-11-11 15:50:08
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Encoder-Pro</h1>
+
+<p align="center" width="100%">
+    <img src="image/13.jpg" alt="">
+</p>
 
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
