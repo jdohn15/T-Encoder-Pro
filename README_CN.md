@@ -1,14 +1,16 @@
 <!--
  * @Description: None
- * @version: V1.0.0
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-11 15:18:01
+ * @LastEditTime: 2024-11-11 15:45:42
  * @License: GPL 3.0
 -->
 
 <h1 align = "center">T-Encoder-Pro</h1>
+
+<p align="center" width="100%">
+    <img src="image/13.jpg" alt="">
+</p>
 
 <p> 
   <a href="https://code.visualstudio.com/"> <img src="badges/VisualStudioCode_badge.png" height="25px" alt="VisualStudioCode_badge" /> </a>
@@ -45,17 +47,23 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片的智能控制旋钮，配备AMOLED�
 
 ## 预览
 
-### PCB板
+### 实物图
 
-<details><summary><b>T-Encoder-Pro</b></summary>
+<p align="center" width="100%">
+    <img src="image/14.jpg" alt="">
+</p>
 
-### T-Encoder-Pro 正面
+---
 
-### T-Encoder-Pro 反面
+<p align="center" width="100%">
+    <img src="image/13.jpg" alt="">
+</p>
 
-</details>
+---
 
-### 渲染图
+<p align="center" width="100%">
+    <img src="image/15.jpg" alt="">
+</p>
 
 ## 模块
 
@@ -89,9 +97,16 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片的智能控制旋钮，配备AMOLED�
 
 ### 例程支持
 
-<p align="center" width="100%">
-    <img src="image/T-Encoder-Pro_Example_Support.png" alt="example">
-</p>
+| Example | Support IDE And Version| Description | Picture |
+| ------  | ------  | ------ | ------ | 
+| [GFX](./examples/GFX) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [Lvgl_CIT](./examples/Lvgl_CIT) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Product factory original testing |  |
+| [CHSC5816](./examples/CHSC5816) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [Rotary_Encoder](./examples/Rotary_Encoder) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+
+| Firmware | Description | Picture |
+| ------  | ------  | ------ |
+| [Lvgl_CIT](./firmware/[T-Encoder-Pro_V1.0][Lvgl_CIT]_firmware_V1.0.0.bin) | Original |  |
 
 ### PlatformIO
 1. 安装[VisualStudioCode](https://code.visualstudio.com/Download)，根据你的系统类型选择安装。

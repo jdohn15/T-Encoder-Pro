@@ -1,10 +1,8 @@
 <!--
  * @Description: None
- * @version: V1.0.0
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-11-11 15:24:13
+ * @LastEditTime: 2024-11-11 15:48:47
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Encoder-Pro</h1>
@@ -44,17 +42,23 @@
 
 ## Preview
 
-### PCB board
+### Actual Product Image
 
-<details><summary><b>T-Encoder-Pro</b></summary>
+<p align="center" width="100%">
+    <img src="image/14.jpg" alt="">
+</p>
 
-##### T-Encoder-Pro Front
+---
 
-##### T-Encoder-Pro Back
+<p align="center" width="100%">
+    <img src="image/13.jpg" alt="">
+</p>
 
-</details>
+---
 
-### Rendering
+<p align="center" width="100%">
+    <img src="image/15.jpg" alt="">
+</p>
 
 ## Module
 
@@ -88,9 +92,16 @@
 
 ### Examples Support
 
-<p align="center" width="100%">
-    <img src="image/T-Encoder-Pro_Example_Support.png" alt="example">
-</p>
+| Example | Support IDE And Version| Description | Picture |
+| ------  | ------  | ------ | ------ | 
+| [GFX](./examples/GFX) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [Lvgl_CIT](./examples/Lvgl_CIT) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Product factory original testing |  |
+| [CHSC5816](./examples/CHSC5816) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [Rotary_Encoder](./examples/Rotary_Encoder) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+
+| Firmware | Description | Picture |
+| ------  | ------  | ------ |
+| [Lvgl_CIT](./firmware/[T-Encoder-Pro_V1.0][Lvgl_CIT]_firmware_V1.0.0.bin) | Original |  |
 
 ### PlatformIO
 1. Install [VisualStudioCode](https://code.visualstudio.com/Download),choose installation based on your system type.
