@@ -26,7 +26,7 @@
 ## 购买链接
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Encoder-Pro_V1.0   | ESP32S3R8 |   16M   |8M (Octal SPI)|  [暂未售卖]()  |
+| T-Encoder-Pro_V1.0   | ESP32S3R8 |   16M   |8M (Octal SPI)| [lilygo.cc](https://www.lilygo.cc/products/t-encoder-plus), [banggood.in](https://m.banggood.in/LILYGO-T-Encoder-Pro-ESP32-S3-Rotary-Encoder-CHSC5816-ESP32-S3FN4R2-Circuit-Board-1_2-inch-AMOLED-Touch-Display-Wireless-Module-p-2018774.html) |
 
 ## 目录
 - [描述](#描述)
