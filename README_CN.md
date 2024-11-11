@@ -3,8 +3,8 @@
  * @version: V1.0.0
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2024-02-03 16:08:00
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-11-11 15:18:01
  * @License: GPL 3.0
 -->
 
@@ -41,7 +41,7 @@
 
 ## 描述
 
-T-Encoder-Pro是一款基于ESP32S3R8芯片开发的一款由旋钮控制的，搭载着一块AMOLED屏幕的智能控制旋钮
+T-Encoder-Pro是一款基于ESP32S3R8芯片的智能控制旋钮，配备AMOLED触摸屏。旋钮旋转、点击（推入），并包含一个蜂鸣器和振动电机。
 
 ## 预览
 
