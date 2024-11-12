@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 15:50:08
+ * @LastEditTime: 2024-11-12 14:03:22
  * @License: GPL 3.0
 -->
 <h1 align = "center">T-Encoder-Pro</h1>
