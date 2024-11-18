@@ -2,7 +2,7 @@
  * @Description: None
  * @Author: LILYGO_L
  * @Date: 2023-09-11 16:13:14
- * @LastEditTime: 2024-11-11 17:47:44
+ * @LastEditTime: 2024-11-18 09:13:10
  * @License: GPL 3.0
 -->
 
@@ -99,10 +99,10 @@ T-Encoder-Pro是一款基于ESP32S3R8芯片的智能控制旋钮，配备AMOLED�
 
 | Example | Support IDE And Version| Description | Picture |
 | ------  | ------  | ------ | ------ | 
-| [GFX](./examples/GFX) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
-| [Lvgl_CIT](./examples/Lvgl_CIT) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Product factory original testing |  |
-| [CHSC5816](./examples/CHSC5816) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
-| [Rotary_Encoder](./examples/Rotary_Encoder) | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` |  |  |
+| [GFX](./examples/GFX) | `[Arduino IDE][esp32_v3.0.5]` |  |  |
+| [Lvgl_CIT](./examples/Lvgl_CIT) |`[Arduino IDE][esp32_v3.0.5]` | Product factory original testing |  |
+| [CHSC5816](./examples/CHSC5816) | `[Arduino IDE][esp32_v3.0.5]` |  |  |
+| [Rotary_Encoder](./examples/Rotary_Encoder) | `[Arduino IDE][esp32_v3.0.5]` |  |  |
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
