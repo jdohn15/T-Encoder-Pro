@@ -293,7 +293,7 @@ void Window_Rotary_Encoder_WS2812B_Test_Loop(void)
             gfx->fillScreen(WHITE);
 
             gfx->setCursor(60, 100);
-            gfx->setTextColor(PINK);
+            gfx->setTextColor(PALERED);
             gfx->setTextSize(3);
             gfx->printf("[KNOB Trigger]");
 
@@ -311,22 +311,22 @@ void Window_Rotary_Encoder_WS2812B_Test_Loop(void)
                 break;
             case 1:
                 gfx->printf("1");
-                ledcSetup(1, 1500, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 1500, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;
             case 2:
                 gfx->printf("2");
-                ledcSetup(1, 2000, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 2000, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;
             case 3:
                 gfx->printf("3");
-                ledcSetup(1, 2500, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 2500, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;
@@ -367,22 +367,22 @@ void Window_Rotary_Encoder_WS2812B_Test_Loop(void)
                 break;
             case 1:
                 gfx->printf("1");
-                ledcSetup(1, 1500, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 1500, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;
             case 2:
                 gfx->printf("2");
-                ledcSetup(1, 2000, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 2000, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;
             case 3:
                 gfx->printf("3");
-                ledcSetup(1, 2500, 8);
-                ledcWrite(1, 127);
+                ledcChangeFrequency(BUZZER_DATA, 2500, 8);
+                ledcWrite(BUZZER_DATA, 127);
                 delay(100);
                 ledcWrite(1, 0);
                 break;

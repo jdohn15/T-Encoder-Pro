@@ -21,11 +21,11 @@ static lv_disp_drv_t disp_drv;
 
 // DXQ120MYB2416A
 Arduino_DataBus *bus = new Arduino_ESP32QSPI(
-    LCD_CS /* CS */, LCD_SCLK /* SCK */, LCD_SDIO0 /* SDIO0 */,
-    LCD_SDIO1 /* SDIO1 */, LCD_SDIO2 /* SDIO2 */, LCD_SDIO3 /* SDIO3 */);
+    SCREEN_CS /* CS */, SCREEN_SCLK /* SCK */, SCREEN_SDIO0 /* SDIO0 */,
+    SCREEN_SDIO1 /* SDIO1 */, SCREEN_SDIO2 /* SDIO2 */, SCREEN_SDIO3 /* SDIO3 */);
 
-Arduino_GFX *gfx = new Arduino_SH8601(bus, LCD_RST /* RST */, 0 /* rotation */,
-                                      false /* IPS */, LCD_WIDTH, LCD_HEIGHT);
+Arduino_GFX *gfx = new Arduino_SH8601(bus, SCREEN_RST /* RST */, 0 /* rotation */,
+                                      false /* IPS */, SCREEN_WIDTH, SCREEN_HEIGHT);
 
 TouchDrvCHSC5816 touch;
 TouchDrvInterface *pTouch;
@@ -134,19 +134,18 @@ void setup()
     pinMode(KNOB_DATA_B, INPUT_PULLUP);
     pinMode(BUZZER_DATA, OUTPUT);
 
-    ledcAttachPin(BUZZER_DATA, 1);
-    ledcSetup(1, 2000, 8);
-    ledcWrite(1, 0); // 0 - 255
+    ledcAttach(BUZZER_DATA, 2000, 8);
+    ledcWrite(BUZZER_DATA, 0);
 
-    pinMode(LCD_VCI_EN, OUTPUT);
-    digitalWrite(LCD_VCI_EN, HIGH);
+    pinMode(SCREEN_EN, OUTPUT);
+    digitalWrite(SCREEN_EN, HIGH);
 
     CHSC5816_Initialization();
 
     gfx->begin(40000000);
     gfx->fillScreen(BLACK);
 
-    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_4, LCD_WIDTH, LCD_HEIGHT); // RGB
+    gfx->draw16bitRGBBitmap(0, 0, (uint16_t *)gImage_4, SCREEN_WIDTH, SCREEN_HEIGHT); // RGB
 
     for (int i = 0; i <= 255; i++)
     {
@@ -161,9 +160,9 @@ void setup()
     setup_ui(&guider_ui);
     events_init(&guider_ui);
 
-    ledcWrite(1, 127);
+    ledcWrite(BUZZER_DATA, 127);
     delay(1000);
-    ledcWrite(1, 0);
+    ledcWrite(BUZZER_DATA, 0);
 }
 
 void loop()

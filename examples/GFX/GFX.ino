@@ -11,22 +11,22 @@
 
 // DXQ120MYB2416A
 Arduino_DataBus *bus = new Arduino_ESP32QSPI(
-    LCD_CS /* CS */, LCD_SCLK /* SCK */, LCD_SDIO0 /* SDIO0 */,
-    LCD_SDIO1 /* SDIO1 */, LCD_SDIO2 /* SDIO2 */, LCD_SDIO3 /* SDIO3 */);
+    SCREEN_CS /* CS */, SCREEN_SCLK /* SCK */, SCREEN_SDIO0 /* SDIO0 */,
+    SCREEN_SDIO1 /* SDIO1 */, SCREEN_SDIO2 /* SDIO2 */, SCREEN_SDIO3 /* SDIO3 */);
 
-Arduino_GFX *gfx = new Arduino_SH8601(bus, LCD_RST /* RST */, 0 /* rotation */,
-                                      false /* IPS */, LCD_WIDTH, LCD_HEIGHT);
+Arduino_GFX *gfx = new Arduino_SH8601(bus, SCREEN_RST /* RST */, 0 /* rotation */,
+                                      false /* IPS */, SCREEN_WIDTH, SCREEN_HEIGHT);
 
 void setup()
 {
     Serial.begin(115200);
     Serial.println("Ciallo");
 
-    pinMode(LCD_VCI_EN, OUTPUT);
-    digitalWrite(LCD_VCI_EN, HIGH);
+    pinMode(SCREEN_EN, OUTPUT);
+    digitalWrite(SCREEN_EN, HIGH);
 
     gfx->begin();
-    gfx->fillScreen(PINK);
+    gfx->fillScreen(PALERED);
 
     for (uint8_t i = 0; i < 255; i++)
     {
@@ -47,6 +47,6 @@ void setup()
 
 void loop()
 {
-    // gfx->fillScreen(PINK);
+    // gfx->fillScreen(PALERED);
     delay(1000);
 }
