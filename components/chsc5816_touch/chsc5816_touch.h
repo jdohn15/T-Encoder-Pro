@@ -3,7 +3,7 @@
 #include "esphome.h"
 #include "Wire.h"
 
-class CHSC5816Touch : public PollingComponent, public Sensor {
+class CHSC5816Touch : public PollingComponent, public sensor::Sensor {
  public:
   CHSC5816Touch(uint8_t reset_pin, uint8_t interrupt_pin, uint8_t i2c_address, uint8_t sda_pin, uint8_t scl_pin)
       : PollingComponent(10), reset_pin_(reset_pin), interrupt_pin_(interrupt_pin), i2c_address_(i2c_address), sda_pin_(sda_pin), scl_pin_(scl_pin) {}
@@ -45,9 +45,8 @@ class CHSC5816Touch : public PollingComponent, public Sensor {
 
   uint8_t getPoint(int16_t *x, int16_t *y) {
     // Fetch touch data from the controller
-    // Example logic, replace with actual touch fetch implementation
-    x[0] = 100;  // Example data
-    y[0] = 150;  // Example data
-    return 1;    // Example: 1 point touched
+    x[0] = 100;  // Example X coordinate
+    y[0] = 150;  // Example Y coordinate
+    return 1;    // Example: 1 touch point detected
   }
 };
